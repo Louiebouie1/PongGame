@@ -4,7 +4,7 @@ mySpeed = 10
 
 if keyboard_check(ord("W"))
 {
-	y = y + mySpeed
+	y = y - mySpeed
 }
 
 if keyboard_check(ord("S"))
