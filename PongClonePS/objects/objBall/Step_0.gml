@@ -17,6 +17,17 @@ if (x <= 0) || (x >= 1024)	//0 is the left side of the screen, 1024 is right sid
 	
 	
 	//Check if winning score is reached, if so show new room (win message)
+	if (global.player1_score = 2)	//change this number to 10 after testing
+	{
+		room_goto(rmP1Win)
+	}
+	
+	if (global.player2_score = 2)	//change this number to 10 after testing
+	{
+		room_goto(rmP2Win)
+	}
+}
+
 //This takes care of resetting after the ball goes past the paddle on either side
 if (x <= 0 || x >= room_width)
 {
